@@ -1,0 +1,44 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f7fb;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: #6c63ff;
+    color: white;
+    text-align: center;
+    padding: 30px;
+}
+
+section {
+    padding: 20px;
+    max-width: 800px;
+    margin: auto;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+}
+
+button {
+    background: #6c63ff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #554fd8;
+}
+
+.work {
+    background: white;
+    padding: 15px;
+    margin-top: 15px;
+    border-radius: 8px;
+}

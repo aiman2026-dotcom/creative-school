@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Творчество школьников</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>🎨 Творчество школьников</h1>
+    <p>Делись идеями. Показывай талант. Вдохновляй!</p>
+</header>
+
+<section class="form-section">
+    <h2>Добавить работу</h2>
+    <input type="text" id="title" placeholder="Название работы">
+    <input type="text" id="author" placeholder="Автор">
+    <textarea id="description" placeholder="Описание"></textarea>
+    <button onclick="addWork()">Опубликовать</button>
+</section>
+
+<section class="gallery">
+    <h2>Галерея работ</h2>
+    <div id="works"></div>
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>
